@@ -1,0 +1,49 @@
+.Nav {
+  background: #454545;
+  color: #fff;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Nav + * {
+  display: flex;
+  flex: 1;
+}
+
+.User {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.UserImage {
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 32px;
+}
+
+.text-button {
+  font: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  display: inline;
+  cursor: pointer;
+  font-size: 80%;
+  color: white;
+}
+
+.ChannelNav a {
+  font-size: 90%;
+  padding: 8px 20px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.ChannelNav a.active {
+  background: rgb(241, 241, 241);
+}
